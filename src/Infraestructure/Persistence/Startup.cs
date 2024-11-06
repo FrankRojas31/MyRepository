@@ -29,6 +29,8 @@ namespace Infraestructure.Persistence
 
             //Add services
             services.AddTransient<IDashboardService, DashboardService>();
+            services.AddTransient<IEstudianteService, EstudianteService>();
+            services.AddTransient<IColaboradorService, ColaboradorService>();
 
             //End services
 

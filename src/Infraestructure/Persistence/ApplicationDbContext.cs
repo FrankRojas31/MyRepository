@@ -18,6 +18,10 @@ namespace Infraestructure.Persistence
         public DbSet<persona> persona {  get; set; }
         public DbSet<logs> logs { get; set; }
         public DbSet<jugador> jugador { get; set; }
+        public DbSet<Estudiantes> Estudiantes { get; set; }
+        public DbSet<Administrativo> Administrativos { get; set; }
+        public DbSet<Colaboradores> Colaboradores { get; set; }
+        public DbSet<Profesor> Profesores { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
